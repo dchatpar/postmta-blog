@@ -1,6 +1,6 @@
 ---
 layout: home
-title: PostMTA Email Infrastructure Blog
+title: Enterprise Email Infrastructure Blog
 ---
 
 # Enterprise Email Infrastructure Blog
