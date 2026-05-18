@@ -2,8 +2,8 @@ title: PostMTA Blog
 email: help@postmta.com
 description: Enterprise Email Infrastructure Guides — KumoMTA, PowerMTA, SMTP, Deliverability
 url: https://blog.postmta.com
-github_url: https://github.com/postmta/blog
-theme: minima
+baseurl: ""
+github_url: https://github.com/dchatpar/postmta-blog
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
