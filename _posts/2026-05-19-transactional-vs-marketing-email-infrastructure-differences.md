@@ -4,20 +4,26 @@ date: 2026-05-19
 tags: ["email", "smtp", "devops", "postmta"]
 ---
 
-Transactional and marketing email have different infrastructure requirements. PostMTA handles both with appropriate routing.
+Transactional and marketing email have different requirements. Your MTA should handle both.
 
-## Transactional
+**Transactional Email**
+Password resets, order confirmations, notifications. High urgency, small volume per user, personalized.
 
-Time-sensitive, personalized, expected. Password resets, receipts, notifications. Requires high deliverability and immediate delivery.
+**Marketing Email**
+Newsletters, promotions, campaigns. High volume, time-sensitive, requires unsubscribe handling.
 
-## Marketing
+**PostMTA's Approach**
+Separate queues for each type. Transactional gets priority during congestion. Marketing uses scheduled throttling.
 
-Bulk, campaign-based, requires unsubscribe. Newsletters, promotions. Requires CAN-SPAM compliance and list management.
+**Delivery Optimization**
+Transactional: Immediate delivery, real-time webhooks. Marketing: Batch processing, engagement optimization.
 
-## PostMTA Handles Both
+**Segmentation**
+PostMTA's tagging system lets you segment by campaign, product, or user type.
 
-Priority queuing, dedicated IPs, unified analytics, suppression sync, CAN-SPAM compliance built-in.
+**Analytics by Type**
+Separate metrics for transactional vs marketing. Understand engagement patterns separately.
 
-postmta.com
+Handle both: https://postmta.com
 
 *[Learn more about PostMTA](https://postmta.com)*
