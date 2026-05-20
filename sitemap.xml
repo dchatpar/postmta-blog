@@ -83,4 +83,11 @@
   <url><loc>https://blog.postmta.com/webhooks-for-email-real-time-event-tracking-and-automation/</loc><lastmod>2026-05-19T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://blog.postmta.com/webhooks-for-email-real-time-event-tracking-with-p/</loc><lastmod>2026-05-19T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://blog.postmta.com/webhooks-for-email-real-time-event-tracking-with-postmta/</loc><lastmod>2026-05-19T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+
+  <url>
+    <loc>https://blog.postmta.com/postmta-installation-configuration-guide/</loc>
+    <lastmod>2026-05-19T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
 </urlset>
