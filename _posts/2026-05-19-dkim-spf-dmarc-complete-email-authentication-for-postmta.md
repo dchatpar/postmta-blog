@@ -11,17 +11,17 @@ Email authentication is non-negotiable for deliverability. Here's how to configu
 ### DNS Records You Need
 
 **SPF Record** (TXT record for your sending domain):
-```plaintext
+```
 v=spf1 include:_spf.postmta.com ~all
 ```
 
 **DKIM Record** (TXT record — PostMTA generates the key):
-```plaintext
+```
 postmta._domainkey IN TXT ( "v=DKIM1; k=rsa; p=YOUR_PUBLIC_KEY" )
 ```
 
 **DMARC Record** (TXT at _dmarc.yourdomain.com):
-```plaintext
+```
 v=DMARC1; p=quarantine; rua=mailto:dmarc@yourdomain.com; pct=100
 ```
 
